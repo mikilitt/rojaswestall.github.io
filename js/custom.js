@@ -61,6 +61,36 @@ function update(e){
 	return false;
 }
 
+// function update(e){
+// 	e.preventDefault();
+// 	style=getComputedStyle(svg,null);
+// 	top=parseInt(style.top);
+// 	marginTop=parseInt(style.marginTop);
+// 	left=parseInt(style.left);
+// 	marginLeft=parseInt(style.marginLeft);
+//
+// 	var angle=getAngleInRadian(e)
+//
+// 	if (angle >= 0 && angle < 90) {
+// 		text.textContent="Great!";
+// 	}
+// 	else if (angle >= 90 && angle < 180 ) {
+// 		text.textContent="Good";
+// 	}
+// 	else if (angle >= 180 && angle < 270) {
+// 		text.textContent="Okay";
+// 	}
+// 	else if (angle >= 270 && angle < 360) {
+// 		text.textContent="Bad";
+// 	}
+//
+// disp<10?text.setAttribute('x','82'):disp>99?text.setAttribute('x','52'):text.setAttribute('x','67');
+// var offset=502+angle/100*502;
+// circle.setAttribute('stroke-dashoffset',offset.toString());
+//
+// 	return false
+// }
+
 function getAngleInRadian(e){
 	var x, y, result, a;
 	x = !! e.touches ? e.touches[ 0 ].clientX : e.clientX;

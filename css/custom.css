@@ -510,9 +510,9 @@ img::-moz-selection {
 }
 
 
-/* For the circle slider : ) */
+ /* For the circle slider : ) */
 
-/*body{background:white}
+body{background:white}
 svg{
 	cursor:pointer;
 	-webkit-tap-highlight-color:black;
@@ -522,7 +522,7 @@ svg{
 	font:normal 60px Arial;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/
 	/* font-weight:bold; */
-	/*-webkit-user-select: none;
+	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
@@ -536,10 +536,11 @@ svg{
 	cursor:-webkit-grabbing;
 	cursor:-moz-grabbing;
 	cursor:grabbing;
-}*/
+}
 
 
-body {
+/* Old Circle Slider */
+/*body {
   text-size-adjust: none;
   -o-text-size-adjust: none;
   -ms-text-size-adjust: none;
@@ -563,6 +564,7 @@ body {
     vertical-align: middle;
     margin-right: -0.25em;
     /* Adjusts for spacing */ }
+  /*
   .center-content > * {
     display: inline-block;
     vertical-align: middle; }
@@ -603,7 +605,7 @@ body {
       vertical-align: middle;
       margin-right: -0.25em;
       /* Adjusts for spacing */ }
-    .wheel .center > * {
+    /*.wheel .center > * {
       display: inline-block;
       vertical-align: middle; }
   .wheel .progress {
@@ -623,4 +625,4 @@ body {
       top: 0;
       width: 100%; }
   .wheel .progress-fill {
-    fill: #9ecfff; }
+    fill: #9ecfff; } */
