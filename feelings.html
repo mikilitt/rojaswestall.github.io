@@ -84,12 +84,11 @@
           <h1>How are you feeling? </h1>
           <p> Use the circular slider to indicate your mood: </p>
 
-          <div>
-          </div>
-        </div>
+
+
 
         <!-- Intro Section -->
-        <div id="rotatescroll">
+        <!-- <div id="rotatescroll">
       		<div class="viewport">
       			<ul class="overview">
       				<li><a href="http://www.baijs.com"><img src="images/hdr3.jpg" /></a></li>
@@ -103,7 +102,8 @@
       		<div class="dot"></div>
       		<div class="overlay"></div>
       		<div class="thumb"></div>
-      	</div>
+      	</div> -->
+
 
         <!-- <div>
           <svg width=200 height=200>
@@ -116,8 +116,25 @@
           </svg>
         </div> -->
 
+        <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+
+          <div class="center-content" viewBox="0 0 500 250">
+            <div class="wheel">
+              <div class="progress"></div>
+              <div class="center">
+                <span class="value"></span>
+              </div>
+              <a href="javascript:void(0)" class="handle"></a>
+            </div>
+          </div>
+
+        </div>
+
+
+
         <a href="strydes.html" class="semi-transparent-button">Submit</a>
       </div>
+    </div>
     </header>
 
 	<!-- Footer -->
@@ -146,8 +163,28 @@
     <script src="js/custom.js"></script>
 
     <!-- Circle Slider JS-->
+
+    <!-- Scripts added for the circle slider -->
+      <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+      <script src="js/jquery.wheel.js"></script>
+
+      <script>
+        $(function () {
+          $(".wheel").wheel({
+            min: 0,
+            max: 360,
+            step: 5,
+            onChange: function (value) {
+              $(".wheel .value").html(mood(value));
+            }
+          });
+        });
+      </script>
+
     <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
-    <script src="js/circleslider.js"></script>
+    <!-- <script src="js/circleslider.js"></script>
     <script type="text/javascript">
       $(document).ready(function()
       {
@@ -156,7 +193,7 @@
 
         var slider = $slider.data("plugin_tinycircleslider");
       });
-    </script>
+    </script> -->
 
 </body>
 
