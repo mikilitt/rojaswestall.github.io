@@ -101,3 +101,12 @@ function getAngleInRadian(e){
 	result=x<0?Math.PI+a:a;
 	return result;
 }
+
+function popup() {
+	var popup = document.getElementById("myPopup");
+	popup.classList.toggle("show");
+}
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});
