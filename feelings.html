@@ -16,6 +16,8 @@
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
+    <link href="css/questions.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -104,8 +106,39 @@
       		<div class="thumb"></div>
       	</div> -->
 
+        <!-- Questions -->
 
-        <div>
+        <!-- <div class="feelings-questions question-popup">
+          <h3>Q1</h3>
+          <a href="#" data-toggle="popover" title="Question" data-content="Some content inside the popover">Toggle popover</a>
+        </div> -->
+        <div class="questions-container">
+          <div class="feelings-questions question-popup">
+              <p id="question-title" onclick="popup()">Q1</p>
+
+            <div class="popupwindow" id="myPopup">
+                <div id="question">[Insert Doctor's Question]</div>
+                <input class="answer" placeholder="Enter answer here." required>
+                <div class="save-button">Save</div>
+            </div>
+          </div>
+
+          <div class="feelings-questions question-popup">
+              <p id="question-title" onclick="popup()">Q2</p>
+              <span class="popupwindow" id="myPopup">Question</span>
+          </div>
+
+          <div class="feelings-questions question-popup">
+              <p id="question-title" onclick="popup()">Q3</p>
+              <span class="popupwindow" id="myPopup">Question</span>
+          </div>
+        </div>
+        <!-- </Questions> -->
+
+
+
+
+
           <svg width=200 height=200>
             <circle cx="0" transform='translate(100,100)' cy="0" r="90" fill="#222" />
             <circle cx="0" class='translate' cy="0" transform='translate(100,100)' r="71" fill="#444" />
@@ -114,7 +147,8 @@
             <circle id='circle' cx="0" transform='translate(100,100) rotate(90)' cy="0" r="80" stroke-dashoffset='953' fill="none" />
             <text id='text' x="67" y="123">90</text>
           </svg>
-        </div>
+
+
 
         <!-- <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
 
@@ -130,12 +164,16 @@
 
         </div> -->
 
-
-
         <a href="index.html" class="semi-transparent-button">Submit</a>
+
+
+
+
       </div>
     </div>
     </header>
+
+
 
 	<!-- Footer -->
     <!-- <footer class="page-footer"> -->
@@ -161,6 +199,7 @@
 
     <!-- Custom Javascript -->
     <script src="js/custom.js"></script>
+
 
     <!-- Circle Slider JS-->
 
