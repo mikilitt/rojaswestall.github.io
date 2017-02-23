@@ -254,7 +254,7 @@ body :-ms-input-placeholder {
     cursor: pointer;
 }
 
-#myBtn {
+.btn {
   width: 75px;
   height: 75px;
   border-radius: 50%;
