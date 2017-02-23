@@ -1,175 +1,112 @@
-
-
- <!DOCTYPE html>
-
+<!doctype html>
+<html lang="en">
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta charset="UTF-8">
+	<title>Calendar</title>
 
-    <title>Business 2</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
-    <link href="css/custom.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom Fonts from Google -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700">
+	<link rel="stylesheet" href="css/styles.css">
 
 </head>
-
 <body>
-  <!-- Navigation -->
-  <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-          <!-- Logo and responsive toggle -->
-          <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" id="brand" href="index.html">
-                <span class="glyphicon glyphicon-fire"></span>
-                STRYDES
-              </a>
-          </div>
-          <!-- Navbar links -->
-          <div class="collapse navbar-collapse" id="navbar">
-              <ul class="nav navbar-nav navbar-right">
-                  <li>
-                      <a href="index.html">Home</a>
-                  </li>
-                  <li>
-                      <a href="aboutus.html">About Us</a>
-                  </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-          <ul class="dropdown-menu" aria-labelledby="about-us">
-            <li><a href="feelings.html">Mood</a></li>
-            <li><a href="calendar.html">Calendar</a></li>
-            <!-- <li><a href="#">Questions</a></li> -->
 
-          </ul>
-        </li>
-                  <li>
-                      <a href="login.html">Log In</a>
-                  </li>
-              </ul>
+	<div class="container">
 
-          </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-  </nav>
+		<div class="calendar">
 
+			<header>
 
-  <!-- Header -->
-  <header class="aboutus-header">
-    <div class="header2-content">
+				<h2>September</h2>
 
-      <div class="header2-content-inner">
-        <h1>About Us </h1>
-        <div>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container -->
-</nav>
+				<a class="btn-prev fontawesome-angle-left" href="#"></a>
+				<a class="btn-next fontawesome-angle-right" href="#"></a>
 
+			</header>
 
-	<!-- Intro Section -->
-    <section class="intro">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                  <span class="glyphicon glyphicon-fire"  style="font-size: 60px" ></span>
+			<table>
 
-                    <h2 class="section-heading">Completely transform doctor - patient relationships</h2>
-                    <p class="text-light">Professionally cultivate one-to-one customer communciation. Dynamically innovate communcation for state of the art health care.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+				<thead>
 
-	<!-- Content 1 -->
-    <section class="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img class="img-responsive img-circle center-block" src="images/doctorcross.jpg" alt="">
-                </div>
-                <div class="col-sm-6">
-                	<h2 class="section-header">Best in Class</h2>
-                	<p class="lead text-light">Info about how we ROCK.</p>
-                	<a href="#" class="semi-transparent-button">Learn More</a>
-                </div>
+					<tr>
 
-            </div>
-        </div>
-    </section>
+						<td>Mo</td>
+						<td>Tu</td>
+						<td>We</td>
+						<td>Th</td>
+						<td>Fr</td>
+						<td>Sa</td>
+						<td>Su</td>
 
-	<!-- Content 2 -->
-     <section class="content content-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                	<h2 class="section-header">Superior Quality</h2>
-                	<p class="lead text-light">Holistically monitior patient information and changes.</p>
-                	<a href="#" class= "semi-transparent-button" >Become a Partner</a>
-<!-- "btn btn-default btn-lg" -->
+					</tr>
 
-                </div>
-                <div class="col-sm-6">
-                    <img class="img-responsive img-circle center-block" src="images/doctorpatient.jpg" alt="">
-                </div>
+				</thead>
 
-            </div>
-        </div>
-    </section>
+				<tbody>
 
+					<tr>
+						<td class="prev-month">26</td>
+						<td class="prev-month">27</td>
+						<td class="prev-month">28</td>
+						<td class="prev-month">29</td>
+						<td class="prev-month">30</td>
+						<td class="prev-month">31</td>
+						<td class="event">1</td>
+					</tr>
+					<tr>
+						<td class="event" >2</td>
+						<td class="event">3</td>
+						<td class="event">4</td>
+						<td class="event">5</td>
+						<td class="event">6</td>
+						<td class="event">7</td>
+						<td class="event">8</td>
+					</tr>
+					<tr>
+						<td class="event">9</td>
+						<td class="event">10</td>
+						<td class="event">11</td>
+						<td class="event">12</td>
+						<td class="event">13</td>
+						<td class="event">14</td>
+						<td class="event">15</td>
+					</tr>
+					<tr>
+						<td class="event">16</td>
+						<td class="event">17</td>
+						<td class="event">18</td>
+						<td class="event">19</td>
+						<td class="event">20</td>
+						<td class="event">21</td>
+						<td class="event">22</td>
+					</tr>
 
-	<!-- Footer -->
-    <footer class="page-footer">
+					<tr>
+						<td class="current-day event">23</td>
+						<td>24</td>
+						<td>25</td>
+						<td>26</td>
+						<td>27</td>
+						<td>28</td>
+						<td>29</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td class="next-month">1</td>
+						<td class="next-month">2</td>
+						<td class="next-month">3</td>
+						<td class="next-month">4</td>
+						<td class="next-month">5</td>
+						<td class="next-month">6</td>
+					</tr>
 
-    	<!-- Contact Us -->
-        <div class="contact">
-        	<div class="container">
-				<h2 class="section-heading">Contact Us</h2>
-				<p><span class="glyphicon glyphicon-earphone"></span><br> (123) 456 7890</p>
-				<p><span class="glyphicon glyphicon-envelope"></span><br> strydes@gmail.com</p>
-        	</div>
-        </div>
+				</tbody>
 
-        <!-- Copyright etc -->
-        <div class="small-print">
-        	<div class="container">
-        		<p>Copyright &copy; strydes.com 2017</p>
-        	</div>
-        </div>
+			</table>
 
-    </footer>
+		</div> <!-- end calendar -->
 
-    <!-- jQuery -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Custom Javascript -->
-    <script src="js/custom.js"></script>
+	</div> <!-- end container -->
 
 </body>
-
 </html>
