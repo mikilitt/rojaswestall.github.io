@@ -521,7 +521,7 @@ svg{
 	-webkit-tap-highlight-color:black;
 }
 #text{
-	fill:#08507B;
+	fill:#085078;
 	font:normal 60px Arial;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/
 	/* font-weight:bold; */
@@ -531,7 +531,7 @@ svg{
 	user-select: none;
 }
 #circle{
-	stroke:orange;
+	stroke:yellowgreen;
 	stroke-width:20;
 	stroke-dasharray:502;
 }
