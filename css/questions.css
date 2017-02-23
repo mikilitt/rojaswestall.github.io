@@ -211,9 +211,6 @@ body :-ms-input-placeholder {
   width: 100px;
 }
 
-
-
-
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -254,6 +251,14 @@ body :-ms-input-placeholder {
     cursor: pointer;
 }
 
+.btn:hover {
+  background: yellowgreen;
+  border-color: yellowgreen;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+}
+
 .btn {
   width: 115px;
   height: 115px;
@@ -263,6 +268,8 @@ body :-ms-input-placeholder {
   background: white;
   color: #085078;
   margin: 15px;
+  margin-bottom: 40px;
+  margin-top: 0px;
   border-style: solid;
   border-color: yellowgreen;
   border-width: thick;
@@ -287,6 +294,8 @@ p5 {
   border-width: thin;
 }
 
-.q {
-  width: 100px;
+/*
+#submitbutton {
+  margin: 15px;
 }
+*/
