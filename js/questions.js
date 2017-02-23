@@ -42,6 +42,7 @@ btn3.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
+
 span1.onclick = function() {
     modal1.style.display = "none";
     document.getElementById("myBtn-1").style.background = "white";
@@ -51,6 +52,7 @@ span2.onclick = function() {
     modal2.style.display = "none";
     document.getElementById("myBtn-2").style.background = "white";
 }
+
 
 span3.onclick = function() {
     modal3.style.display = "none";
