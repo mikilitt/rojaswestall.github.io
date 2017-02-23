@@ -267,7 +267,7 @@ body :-ms-input-placeholder {
   border-color: yellowgreen;
   border-width: thick;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-  float: left;
+  /* float: left; */
 }
 
 p5 {
