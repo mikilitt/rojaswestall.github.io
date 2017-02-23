@@ -67,12 +67,10 @@ body :-ms-input-placeholder {
   padding: 0px;
   margin: 15px;
 }
-
 .question-popup {
   position: relative;
   cursor: pointer;
 }
-
 .question-popup .popupwindow {
   visibility: hidden;
   width: 1000px;
@@ -94,8 +92,6 @@ body :-ms-input-placeholder {
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
   background-color: white;
 }
-
-
 /* Popup arrow */
 /*.question-popup .popupwindow::after {
     content: "";
@@ -122,24 +118,20 @@ body :-ms-input-placeholder {
     from {opacity: 0;}
     to {opacity: 1;}
 }
-
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
 }
-
 .answer {
   width: 1000px;
   height: 300px;
   font-size: 20px;
   text-align: left;
   vertical-align: top;
-
   margin-top: -300px;
   margin-left: -15px;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
-
 /* question save button */
 
 /*.save-button {
@@ -211,9 +203,6 @@ body :-ms-input-placeholder {
   width: 100px;
 }
 
-
-
-
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -254,20 +243,30 @@ body :-ms-input-placeholder {
     cursor: pointer;
 }
 
+.btn:hover {
+  background: yellowgreen;
+  border-color: yellowgreen;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+}
+
 .btn {
-  width: 75px;
-  height: 75px;
+  width: 115px;
+  height: 115px;
   border-radius: 50%;
   font-size: 30px;
   text-align: center;
   background: white;
   color: #085078;
-  margin: 10px;
+  margin: 15px;
+  margin-bottom: 40px;
+  margin-top: 0px;
   border-style: solid;
   border-color: yellowgreen;
   border-width: thick;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-  float: left;
+  /* float: left; */
 }
 
 p5 {
@@ -287,6 +286,8 @@ p5 {
   border-width: thin;
 }
 
-.q {
-  width: 100px;
+/*
+#submitbutton {
+  margin: 15px;
 }
+*/
