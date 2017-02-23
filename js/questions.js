@@ -21,7 +21,9 @@ var btn2 = document.getElementById("myBtn-2");
 var btn3 = document.getElementById("myBtn-3");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span1 = document.getElementById("close-1");
+var span2 = document.getElementById("close-2");
+var span3 = document.getElementById("close-3");
 
 // When the user clicks the button, open the modal
 btn1.onclick = function() {
@@ -40,38 +42,38 @@ btn3.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span1.onclick = function() {
     modal1.style.display = "none";
     document.getElementById("myBtn-1").style.background = "white";
 }
 
-span.onclick = function() {
+span2.onclick = function() {
     modal2.style.display = "none";
     document.getElementById("myBtn-2").style.background = "white";
 }
 
-span.onclick = function() {
+span3.onclick = function() {
     modal3.style.display = "none";
     document.getElementById("myBtn-3").style.background = "white";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == modal1) {
         modal1.style.display = "none";
         document.getElementById("myBtn-1").style.background = "white";
     }
 }
 
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == modal2) {
         modal2.style.display = "none";
         document.getElementById("myBtn-2").style.background = "white";
     }
 }
 
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target == modal3) {
         modal3.style.display = "none";
         document.getElementById("myBtn-3").style.background = "white";
     }
