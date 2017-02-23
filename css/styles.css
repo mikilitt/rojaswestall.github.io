@@ -14,12 +14,18 @@
 
 /* ---------- GENERAL ---------- */
 
-body {
- background: #f9f9f9;
- color: #0e171c;
- font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 
- margin: 0;
+body {
+  background: black; /* fallback for old browsers */
+  background: -webkit-linear-gradient(#022133 10%, #085078 90%);
+  background: -moz-linear-gradient(#022133 10%, #085078 90%);
+  background: -ms-linear-gradient(#022133 10%, #085078 90%);
+  background: -o-linear-gradient(#022133 10%, #085078 90%);
+  background: linear-gradient(#022133 10%, #085078 90%);
+
+  color: white;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  margin: 0;
 }
 
 a {
@@ -27,7 +33,7 @@ a {
 }
 
 h2 {
- font-size: 2em;
+ font-size: 50px;
  line-height: 1.25em;
  margin: .25em 0;
 }
@@ -64,15 +70,18 @@ table {
 
 .calendar h2 {
  text-transform: uppercase;
+ font-size: 15px
+
 }
 
 .calendar thead {
  font-weight: 600;
  text-transform: uppercase;
+ font-size: 15px;
 }
 
 .calendar tbody {
- color: #7c8a95;
+ color: white;
 }
 
 .calendar tbody td:hover {
@@ -100,8 +109,8 @@ table {
 }
 
 .current-day {
- background: #00addf;
- color: #f9f9f9;
+ background: white;
+ color: #022133;
 }
 
 .event {
