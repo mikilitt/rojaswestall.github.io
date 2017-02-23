@@ -1,5 +1,5 @@
 img { border: 0; }
-
+/* DID NOT USE THIS CIRCLESLIDER IT IS IRRELEVANT */
 /* Tiny Circleslider */
 #rotatescroll { height:300px; position:relative; width:300px; }
 #rotatescroll .viewport{ height:300px; position: relative; margin:0 auto; overflow:hidden; width:300px; pointer-events: none }
