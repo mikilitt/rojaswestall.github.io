@@ -255,14 +255,14 @@ body :-ms-input-placeholder {
 }
 
 .btn {
-  width: 75px;
-  height: 75px;
+  width: 115px;
+  height: 115px;
   border-radius: 50%;
   font-size: 30px;
   text-align: center;
   background: white;
   color: #085078;
-  margin: 10px;
+  margin: 15px;
   border-style: solid;
   border-color: yellowgreen;
   border-width: thick;
