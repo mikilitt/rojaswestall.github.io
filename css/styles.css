@@ -16,7 +16,7 @@
 
 
 body {
-  background: black; /* fallback for old browsers */
+  background: blue; /* fallback for old browsers */
   background: -webkit-linear-gradient(#022133 10%, #085078 90%);
   background: -moz-linear-gradient(#022133 10%, #085078 90%);
   background: -ms-linear-gradient(#022133 10%, #085078 90%);
@@ -49,14 +49,14 @@ table {
  border-spacing: 0;
 }
 
-.container {
+/*.container {
  height: 538px;
  left: 50%;
  margin: -255px 0 0 -245px;
  position: absolute;
  top: 50%;
  width: 510px;
-}
+}*/
 
 /* ---------- CALENDAR ---------- */
 
@@ -100,7 +100,8 @@ table {
 
 .calendar .prev-month,
 .calendar .next-month {
- color: #cbd1d2;
+ color: white;
+ opacity: .2;
 }
 
 .calendar .prev-month:hover,
