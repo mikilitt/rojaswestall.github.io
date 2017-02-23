@@ -138,9 +138,6 @@ header .header-content .header-content-inner p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-
-
-
 }*/
 
 header .feelings2-header {
@@ -155,21 +152,17 @@ header .feelings2-header {
 }
 
 /*.aboutus-header{
-
   position: relative;
   width: 100%;
   min-height: auto;
   text-align: center;
   color: #fff;
-
   background: purple;
   background: -webkit-linear-gradient(#2e1d4c  10%, #482d77 90%);
   background: -moz-linear-gradient(#2e1d4c  10%, #482d77 90%);
   background: -ms-linear-gradient(#2e1d4c  10%, #482d77 90%);
   background: -o-linear-gradient(#2e1d4c  10%, #482d77 90%);
   background: linear-gradient(#2e1d4c  10%, #482d77 90%);
-
-
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -554,7 +547,6 @@ svg{
   margin: 0;
   padding: 0;
   width: 100%; }
-
 .center-content {
   text-align: center;
   white-space: nowrap;
@@ -571,7 +563,6 @@ svg{
   .center-content > * {
     display: inline-block;
     vertical-align: middle; }
-
 .wheel {
   width: 200px;
   height: 200px;
