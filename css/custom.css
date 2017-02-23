@@ -59,7 +59,9 @@ body {
 }
 
 a {
-    color: yellowgreen;
+    color: white;
+    opacity: .5;
+    font-size: 15px;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -67,7 +69,8 @@ a {
 
 a:hover,
 a:focus {
-    color: forestgreen;
+    color: white;
+    opacity: 1.0;
 }
 
 p {
@@ -539,6 +542,11 @@ svg{
 }
 
 
+
+.signup-link{
+  padding-top: 20px;
+
+}
 
 
 /* Old Circle Slider */
